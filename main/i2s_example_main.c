@@ -29,8 +29,6 @@
 #define I2S_DI_IO       (-1)
 
 #define SAMPLE_PER_CYCLE (SAMPLE_RATE/WAVE_FREQ_HZ)
-//uint8_t samples_data[SAMPLE_PER_CYCLE * 2 * 2];
-
 
 #define SAMPLES			SAMPLE_PER_CYCLE	// Total number of samples left and right
 #define	BUF_SAMPLES		SAMPLES * 4			// Size of DMA tx/rx buffer samples * left/right * 2 for 32 bit samples
